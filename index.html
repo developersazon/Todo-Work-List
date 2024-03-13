@@ -25,7 +25,7 @@
         <div class="card p-5">
           <h3 class="text-center" style="font-family:Madimi One, sans-serif;">Add your today Task<img src="img/todo.png" alt="Todo Work List Logo" width="50px" height="auto"></h3>
               <!-- input field section start here -->
-              <form class="row gy-2 gx-3 align-items-center mt-2">
+              <form class="row gy-2 gx-3 align-items-center my-2">
                     <div class="col-auto">
                       <div data-mdb-input-init class="form-outline">
                         <input type="text" id="input-box" class="form-control" placeholder="write your task here..."/>
@@ -33,14 +33,14 @@
                       </div>
                     </div>
                     <div class="col-auto">
-                      <button data-mdb-ripple-init type="button" class="btn btn-primary" onclick="addTask()">Add Now</button>
+                      <button data-mdb-ripple-init type="button" class="btn btn-primary" onclick="addTask()" style="text-transform: capitalize;">Add Now</button>
                     </div>
             </form>
               <!-- input field section end here -->
 
-            <ul id="list-container" class="mb-3">
-                <!-- <li class="checked">new Task 1</li>
-                <li>new Task 1</li> -->
+            <ul id="list-container" class="">
+                <!-- <li class="checked"></li>
+                <li class=""></li> -->
             </ul>
         </div>
       </div>
