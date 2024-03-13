@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Lodo Work List</title>
+    <!-- MDB icon -->
+    <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon" />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"/>
+    <!-- Google Fonts Roboto -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"/>
+    <link href="https://fonts.googleapis.com/css2?family=Madimi+One&display=swap" rel="stylesheet">
+
+    
+    <!-- MDB -->
+    <link rel="stylesheet" href="css/mdb.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- Start your project here-->
+    <div class="container">
+      <div class="d-flex justify-content-center align-items-center" style="height: 100vh">
+        <div class="card p-5">
+          <h3 class="text-center" style="font-family:Madimi One, sans-serif;">Add your today Task<img src="img/todo.png" alt="Todo Work List Logo" width="50px" height="auto"></h3>
+              <!-- input field section start here -->
+              <form class="row gy-2 gx-3 align-items-center mt-2">
+                    <div class="col-auto">
+                      <div data-mdb-input-init class="form-outline">
+                        <input type="text" id="input-box" class="form-control" placeholder="write your task here..."/>
+                        <label class="form-label" for="input-box">New Task</label>
+                      </div>
+                    </div>
+                    <div class="col-auto">
+                      <button data-mdb-ripple-init type="button" class="btn btn-primary" onclick="addTask()">Add Now</button>
+                    </div>
+            </form>
+              <!-- input field section end here -->
+
+            <ul id="list-container" class="mb-3">
+                <!-- <li class="checked">new Task 1</li>
+                <li>new Task 1</li> -->
+            </ul>
+        </div>
+      </div>
+    </div>
+    <!-- End your project here-->
+
+    <!-- MDB -->
+    <script type="text/javascript" src="js/mdb.umd.min.js"></script>
+    <!-- Custom scripts -->
+    <script type="text/javascript" src="js/main.js"></script>
+  </body>
+</html>
